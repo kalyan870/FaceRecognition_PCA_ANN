@@ -16,7 +16,7 @@ flowchart LR
     B --> C[PCA feature extraction]
     C --> D[ANN training]
     D --> E[Saved model artifacts]
-    F[Streamlit app] --> G[Uploaded or captured image]
+    F[Streamlit app] --> G[Uploaded image]
     G --> C
     C --> H[Identity prediction]
     E --> H
